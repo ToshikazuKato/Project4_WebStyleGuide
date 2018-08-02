@@ -1,0 +1,18 @@
+
+.img{
+
+  &--logo,
+  &--avatar{
+    display: block;
+    margin: 0 auto;
+  }
+
+  &--frame{
+    border: 1px solid $font-color;
+    padding: 2vh 2vw;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+    width: 100%;
+  }
+
+}

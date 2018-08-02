@@ -11,26 +11,27 @@ $breakpoint-desktop: 1400px;
 $font-color: #aaaaaa; //grey
 $theme-color: #00e8c4; //teal
 $accent-color: #51ddfc; //lightblue
+$white-color: #ffffff;
 
-//btn colors => create btn classes by .btn--#{} 
+//btn colors => create btn classes by .btn--#{}
 $btn-colors: (
   'default' : $accent-color,
   'success' :#64d67d ,
   'error' : #eb6565,
   'warning' : #f98e41,
   'info' : #af7de8
-)
+);
 
 // Grid system
 $grid-col: (
-  '3' : #db9ffb,
-  '4' : #7dcefc ,
-  '5' : #8ed28b,
-  '6' : #2b87a3,
-  '7' : #e38585,
-  '8' : #d7936c,
-  '12' : #91fade,
-)
+  3 : #db9ffb,
+  4 : #7dcefc ,
+  5 : #8ed28b,
+  6 : #2b87a3,
+  7 : #e38585,
+  8 : #d7936c,
+  12 : #91fade,
+);
 
 
 //border-radius
