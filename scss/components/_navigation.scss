@@ -8,9 +8,11 @@
 
   a{
     @extend %links;
+
   }
 
   & a:hover{
     color: $white-color;
   }
+
 }

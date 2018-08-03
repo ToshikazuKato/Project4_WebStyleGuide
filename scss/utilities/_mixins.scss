@@ -81,6 +81,16 @@
 
 }//gridColor
 
+@mixin gridLayout ($gridObj-layout){
+
+  @each $gridNum, $gridSize in $gridObj-layout{
+    &--#{$gridNum}{
+      flex-grow: $gridSize;
+    }
+  }
+
+}
+
 
 //margin for center and asjust margin-top
 @mixin margin($mgn-top,$mgn-btm:0){

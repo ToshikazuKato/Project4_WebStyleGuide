@@ -4,6 +4,10 @@
   width: 100%;
   padding-top: 3vh;
   padding-bottom: 3vh;
+
+  @include mq(desktop){
+    padding: 1vh 0;
+  }
 }
 
 
@@ -24,6 +28,11 @@
   @include margin(2vh);
   width: 95%;
   border-radius: $brdr-radius;
+
+  @include mq(desktop){
+    display: inline-block;
+    width: 15%;
+  }
 }
 
 
@@ -40,6 +49,12 @@
   padding-top: 3vh;
   padding-bottom: 3vh;
   font-weight: 800;
+  @include mq(desktop){
+    display: inline-block;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    padding: 1vh 0;
+  }
 
 }
 
@@ -50,4 +65,9 @@
   border: none;
   padding: 3vh 2vw;
   margin-bottom: 1vh;
+  @include mq(desktop){
+    padding: 1vh 2vw;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+  }
 }
