@@ -1,17 +1,4 @@
-* {
-  box-sizing: border-box; }
-
-ul {
-  list-style: none;
-  text-align: center;
-  padding: 0;
-  margin-top: 0;
-  margin-bottom: 0; }
-
-a {
-  text-decoration: none;
-  color: #aaaaaa; }
-
+@import url(normalize.css);
 .nav__item a {
   display: block;
   width: 100%;
@@ -85,6 +72,20 @@ a {
       padding: 1vh 2vw;
       margin-left: 0.5vw;
       margin-right: 0.5vw; } }
+
+* {
+  box-sizing: border-box; }
+
+.nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0; }
+
+a {
+  text-decoration: none;
+  color: #aaaaaa; }
 
 .grid__row {
   justify-content: space-around;
